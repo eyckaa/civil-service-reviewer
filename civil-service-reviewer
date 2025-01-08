@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Service Exam Reviewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            margin: 20px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0077b6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #005f8a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Civil Service Exam Reviewer</h1>
+        <p>Prepare for your success with practice questions and tips.</p>
+    </header>
+    <main>
+        <section class="section" id="practice">
+            <h2>Practice Questions</h2>
+            <p>Select a subject to start practicing:</p>
+            <a href="#" class="btn">Math</a>
+            <a href="#" class="btn">English</a>
+            <a href="#" class="btn">Logic</a>
+        </section>
+        <section class="section" id="mock-exam">
+            <h2>Take a Mock Exam</h2>
+            <p>Simulate the real exam environment with a timed test.</p>
+            <a href="#" class="btn">Start Exam</a>
+        </section>
+        <section class="section" id="resources">
+            <h2>Study Resources</h2>
+            <p>Access study guides and exam tips to boost your preparation.</p>
+            <a href="#" class="btn">View Resources</a>
+        </section>
+    </main>
+    <footer>
+        <p style="text-align: center; margin: 20px 0; color: #555;">&copy; 2025 Civil Service Reviewer</p>
+    </footer>
+</body>
+</html>
